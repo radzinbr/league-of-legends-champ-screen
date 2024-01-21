@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+    background-image: url(../img/akali/akali-sF.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    /* Remova a margem padrão do corpo para garantir que a imagem cubra toda a tela */
+    font-family: "Spiegel", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.vw;
+    transition: background-image 0.2s ease; /* Adiciona uma transição de 0.5 segundos */
+    
+
+}
+@font-face {
+    font-family:spiegel ;
+    src: url(/fonts/Fonts_Package/Spiegel-OTF/Spiegel-Bold.otf);
+}
+.full {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+.skins{
+    display: flex;
+}
+
+.skins img:hover{
+    display: flex;
+    border: solid 1px rgb(255, 255, 255);
+}
+#skin1,#skin2,#skin3{
+
+    width: 5vw;
+    height: 10vh;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+
+.part1 {
+    margin: 0px 0px 0px 50px ;
+    max-width: 1000px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.part1 .text{
+    text-align: left;
+    padding: 0px 0px 0px 2vw;
+
+}
+.part1 .text h1 {
+    color: white;
+    margin: 0;
+    font-family: "Beaufort for LOL", serif;
+    font-size: calc(8.73px + 1.88vw);
+    
+  
+}
+.part1 .text .descricao{
+    color: rgb(255, 255, 255);
+    width: 30vw;
+    font-size: 120%;
+}
+.part1 .icon img {
+    width: 20vw;
+}
+
+.part2 {
+    background-color: rgba(57, 57, 57, 0.367);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* Alinhar à direita */
+    justify-content: center;
+    /* Ajustado a margem para empurrar para fora da tela */
+    gap: 2vw;
+    width: 7vw;
+    padding: 3vw 80px 0px 41px;
+    /* Adicionado um preenchimento para evitar que o conteúdo seja cortado */
+}
+
+.nav .obj img {
+    width: 5vw;
+    border-radius: 30%;
+    border: solid 0.1vw rgb(0, 0, 0);
+}
+
+.nav .obj img:hover {
+    border: solid 0.1vw rgb(227, 227, 227);
+}
+
+
+
+.linha-vertical {
+    border-left: 1px solid rgba(255, 255, 255, 0.764);
+    /* Largura e cor da borda à esquerda */
+    height: 100vh;
+    /* Altura da linha */
+    margin: 0 vw;
+    /* Margem para ajustar a posição da linha */
+}
